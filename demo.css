@@ -49,3 +49,20 @@ footer {
   padding-top: 20px;
   color:rgb(211, 218, 240);
 }
+
+/* homework */
+.cards {
+  max-width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+@media (min-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
